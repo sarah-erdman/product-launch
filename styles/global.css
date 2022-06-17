@@ -1,5 +1,5 @@
 /* font @import */
-
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 :root {
   /* css variables with theme colors,
     names have to start with "--" */
@@ -7,5 +7,26 @@
 }
 
 body {
+  background-color: #EED6D3;
     
+}
+h1, p{
+  text-align: center;
+}
+
+p{
+  margin: 10;
+  border: 1 px solid black;
+  padding 20px
+  font-family:'Kdam Thmor Pro', sans-serif;
+}
+img{
+  object-fit: cover;
+  height: 50vh;
+  width: 100vw;
+
+}
+
+form:hover{
+  background-color: #E8B4B8;
 }
